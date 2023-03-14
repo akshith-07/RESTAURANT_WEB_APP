@@ -14,18 +14,23 @@ body{
     grid-gap: 20px 40px;
 }
 .heading{
-    background-color: #cb202d;
+    /* position: absolute; */
+    background-color: rgb(13, 209, 199);
     color: #ffffff;
     margin-bottom: 30px;
-    padding: 120px 0 30px 0;
+    padding: 30px 0 30px 0;
     grid-column: 1/-1;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .heading>h1{
     font-weight: 400;
     font-size: 30px;
     letter-spacing: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    text-align: center;
 }
 .heading>h3{
     font-weight: 600;
@@ -71,11 +76,24 @@ body{
     align-self: stretch;
 }
 .details>button{
-    background-color: #cb202d;
+    background-color:aqua;
     border: none;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
     border-radius: 5px;
     width: 180px;
+}
+#biriyani
+{
+    height: 230px;
+}
+
+footer{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
 }
